@@ -18,4 +18,10 @@ export const API_PATHS = {
     GET_ONE: (id) => `/api/sessions/${id}`, // ✅ IMPORTANT
     DELETE: (id) => `/api/sessions/${id}`,
   },
+
+  QUESTION: {
+    ADD_TO_SESSION: "/api/questions/add",
+    PIN: (id) => `/api/questions/${id}/pin`,
+    NOTE: (id) => `/api/questions/${id}/note`,
+  },
 };
