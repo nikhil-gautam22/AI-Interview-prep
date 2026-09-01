@@ -11,6 +11,7 @@ import { UserContext } from "../Context/userContext";
 import { useNavigate } from "react-router-dom";
 import ProfileInfoCard from "../components/Cards/ProfileInfoCard";
 
+
 const LandingPage = () => {
    
   const {user}=useContext(UserContext);

@@ -10,7 +10,7 @@ import QuestionCard from "../../components/Cards/QuestionCard";
 import AIResponsePreview from "./Component/AIResponsePreview";
 import DashboardLayout from '../../components/layouts/DashboardLayout'
 import Drawer from "../../components/Loader/Drawer";
-import axiosInstance from "../../utils/axiosinstance";
+import axiosInstance from "../../utils/axiosInstance";
 import { API_PATHS } from "../../utils/apiPath";
 import SkeletonLoader from "../../components/Loader/SkeletonLoader";
 
