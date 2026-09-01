@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { FaRegEye, FaRegEyeSlash } from "react-icons/fa6";
-import axiosInstance from "../../utils/axiosinstance";
+import axiosInstance from "../../utils/axiosInstance";
 import { API_PATHS } from "../../utils/apiPath";
 import { useNavigate } from "react-router-dom";
 import { UserContext } from "../../Context/userContext";
